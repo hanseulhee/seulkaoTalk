@@ -1,0 +1,24 @@
+import React from "react";
+import "./Sidebar.css";
+
+function Sidebar(){
+    return(
+    <div className="sidebar__tool">
+        <div className="topicon">
+        <img src="https://img.icons8.com/material-sharp/50/000000/user.png" alt="profile" />
+        <div className="circle">238</div>
+        <img src="https://img.icons8.com/ios-glyphs/50/000000/speech-bubble.png" className="speech" alt="speech message"/>
+        <div className="circle2">N</div>
+        <img src="https://img.icons8.com/fluent-systems-filled/50/000000/ellipsis.png" alt="etc"/>
+        </div>
+
+        <div className="bottomicon">
+        <img src="https://img.icons8.com/small/50/000000/happy.png" alt="emotion" />
+        <img src="https://img.icons8.com/material-outlined/50/000000/appointment-reminders--v2.png" alt="bell" />
+        <img src="https://img.icons8.com/fluent-systems-regular/50/000000/settings.png" alt="setting" />
+        </div>
+    </div>
+        )
+}
+
+export default Sidebar;

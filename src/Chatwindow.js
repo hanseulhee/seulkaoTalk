@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./styles/Chatwindow.css";
 
-function Chatwindow(){
-    <></>
+function Chatwindow() {
+  return <></>;
 }
 
 export default Chatwindow;

@@ -1,0 +1,37 @@
+.main__tool{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+}
+.profile_img{
+    width: 30px;
+    height:30px;
+    border-radius: 40%;
+    text-align: center;
+    top:35px;
+    left: 19px;
+    overflow: hidden;
+}
+
+.me{
+    display: flex;
+    flex-direction: row;
+}
+
+.birthday{
+    display: flex;
+    flex-direction: row;
+}
+.birthday >h5 {
+    all: unset;
+    color: grey;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+}
+
+.friends{
+    display: flex;
+    flex-direction: row;
+}
