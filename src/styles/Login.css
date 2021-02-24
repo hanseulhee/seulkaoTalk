@@ -1,10 +1,6 @@
-.login__tool{
-    background-color: rgb(231, 231, 6);
-    
-}
 
 .signinbox {
-    background-color: rgb(0, 0, 0, 0.8);
+    background-color: rgb(231, 231, 6);
     width: 450px;
     height: 630px;
     display: flex;
@@ -102,51 +98,7 @@
     color: rgb(247, 243, 243);
   }
   
-  .explain {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-self: center;
-    width: 341px;
-    margin-top: 36px;
-  }
-  .plus {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
-    color: rgb(140, 140, 140);
-  }
-  
-  .plus > p {
-    all: unset;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .plus2 {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 13px;
-    font-weight: lighter;
-    color: rgb(140, 140, 140);
-    margin-top: 17px;
-  }
-  
-  .plus2 > p {
-    all: unset;
-    color: #0071eb;
-    cursor: help;
-  }
-  
-  .help {
-    all: unset;
-    color: #b3b3b3;
-    font-size: 12px;
-    padding-top: 13px;
-    margin-left: 323px;
-    font-family: "Noto Sans", sans-serif;
-    cursor: pointer;
-  }
+
   .form-control small {
     font-family: "Noto Sans", sans-serif;
     color: #e86a05;
