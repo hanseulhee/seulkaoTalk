@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Link from './Link';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Link />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,135 +1,128 @@
-
 .signinbox {
-    background-color: rgb(231, 231, 6);
-    width: 450px;
-    height: 630px;
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
-    position: absolute;
-    top: 73px;
-    left: 35%;
-  }
-  
-  .inform {
-    color: white;
-    font-size: 32px;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 800;
-  
-    margin-top: 60px;
-    margin-left: 70px;
-    margin-bottom: 20px;
-  }
-  
-  .form-control {
-    margin-top: 5px;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-  }
-  
-  .name,
-  .password {
-    all: unset;
-    background-color: rgb(51, 51, 51);
-    position: relative;
-    width: 320px;
-    height: 50px;
-    z-index: 4;
-    border-radius: 4px;
-    padding: 2px;
-    color: white;
-  }
-  
-  .name:hover,
-  .password:hover {
-    all: unset;
-    background-color: rgb(69, 69, 69);
-  
-    width: 320px;
-    height: 50px;
-    z-index: 4;
-    border-radius: 4px;
-    color: white;
-    font-size: 15px;
-  
-    font-family: "Noto Sans", sans-serif;
-    font-weight: lighter;
-    padding: 2px;
-  }
-  
-  .input:valid {
-    padding-left: 20px;
-  }
-  
-  input::placeholder {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
-    /* padding: 15px; */
-    font-weight: 100;
-    color: rgb(140, 140, 140);
-  }
-  .signinbutton {
-    all: unset;
-    background-color: #e50914;
-    color: white;
-    border-radius: 4px;
-    width: 341px;
-    height: 53px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-  
-    font-size: 17px;
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 800;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  .signinbutton:hover {
-    background-color: #9b0910;
-    color: rgb(247, 243, 243);
-  }
-  
+  background-color: rgb(254, 225, 0);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  position: absolute;
+}
 
-  .form-control small {
-    font-family: "Noto Sans", sans-serif;
-    color: #e86a05;
-    letter-spacing: 0.2px;
-    font-size: 12px;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-  }
+.form-control,
+.form-control_border {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+}
+
+.name,
+.password {
+  all: unset;
+  background-color: white;
+  position: relative;
+  width: 320px;
+  height: 45px;
+  z-index: 4;
+  border-radius: 1px;
+  padding: 2px;
+  color: #8c8c8c;
+  font-family: "Noto Sans", sans-serif;
   
-  .form-control.error input {
-    border-bottom: 1px double #e86a05;
-  }
-  .form-control.error small {
-    visibility: visible;
-  }
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.input:valid {
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  /* padding: 15px; */
+  font-weight: 100;
+  color: rgb(140, 140, 140);
+}
+.signinbutton {
+  all: unset;
+  background-color: rgb(241, 239, 237);
+  color: #8c8c8c;
+  border-radius: 1px;
+  width: 341px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+  font-size: 17px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+
+  margin-top: 10px;
+  cursor: pointer;
+
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.signinbutton:hover{
+  background-color: rgb(56,30,31);
+  color: white;
+}
+
+
+
+.form {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 6%;
+}
+
+.back > img {
+  width: 200px;
+  height: 195px;
+  transition: transform 0.8s ease;
+  margin-bottom: 13px;
+}
+
+.rule {
+  display: flex;
+  flex-direction: row;
   
-  .form-control.success input {
-    background-color: rgb(69, 69, 69);
-  }
-  
-  .form {
-    width: 100vw;
-    height: 100vh;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .signinbutton:hover {
-    transition: all 0.3s ease-in-out;
-    filter: brightness(73%);
-  }
+  margin-left: 595px;
+  margin-top: 10px;
+}
+
+.rule > h4 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #757575;
+}
+
+input[type="checkbox"]:checked +label {
+  border: 2px solid white;
+}
+
+.login__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #868686;
+  font-size: 13px;
+  margin-top: 10%;
+
+}

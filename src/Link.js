@@ -5,6 +5,7 @@ import News from "./News";
 import Chatlist from "./Chatlist";
 import Login from "./Login";
 import Chatwindow from "./Chatwindow";
+import App from "./App";
 
 function Link() {
     return (
@@ -14,6 +15,7 @@ function Link() {
         <Route path="/chatlist" component={Chatlist} />
         <Route path="/news" component={News} />
         <Route path="/main" component={Main} />
+        <Route path="/app" component={App} />
       </HashRouter>
     );
   }
