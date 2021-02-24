@@ -64,3 +64,12 @@
   left: 19px;
 }
 
+.speech,
+.profile{
+  width: 41px;
+  margin-top: 16px;
+}
+
+.profile{
+  z-index: 33;
+}
