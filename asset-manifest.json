@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/seulkaoTalk/static/css/main.48799588.chunk.css",
+    "main.js": "/seulkaoTalk/static/js/main.bd38036b.chunk.js",
+    "main.js.map": "/seulkaoTalk/static/js/main.bd38036b.chunk.js.map",
+    "runtime-main.js": "/seulkaoTalk/static/js/runtime-main.c6679458.js",
+    "runtime-main.js.map": "/seulkaoTalk/static/js/runtime-main.c6679458.js.map",
+    "static/js/2.1f26550c.chunk.js": "/seulkaoTalk/static/js/2.1f26550c.chunk.js",
+    "static/js/2.1f26550c.chunk.js.map": "/seulkaoTalk/static/js/2.1f26550c.chunk.js.map",
+    "index.html": "/seulkaoTalk/index.html",
+    "static/css/main.48799588.chunk.css.map": "/seulkaoTalk/static/css/main.48799588.chunk.css.map",
+    "static/js/2.1f26550c.chunk.js.LICENSE.txt": "/seulkaoTalk/static/js/2.1f26550c.chunk.js.LICENSE.txt",
+    "static/media/logo.35ceafef.png": "/seulkaoTalk/static/media/logo.35ceafef.png",
+    "static/media/가족.9dd823db.PNG": "/seulkaoTalk/static/media/가족.9dd823db.PNG",
+    "static/media/나.9ae281a0.PNG": "/seulkaoTalk/static/media/나.9ae281a0.PNG",
+    "static/media/멋사.e38bc518.PNG": "/seulkaoTalk/static/media/멋사.e38bc518.PNG",
+    "static/media/배민.0765d525.PNG": "/seulkaoTalk/static/media/배민.0765d525.PNG",
+    "static/media/스터디.64e5133e.PNG": "/seulkaoTalk/static/media/스터디.64e5133e.PNG",
+    "static/media/아빠.31d0a414.PNG": "/seulkaoTalk/static/media/아빠.31d0a414.PNG",
+    "static/media/아이티.ca00d666.PNG": "/seulkaoTalk/static/media/아이티.ca00d666.PNG",
+    "static/media/애들.1af1baf8.PNG": "/seulkaoTalk/static/media/애들.1af1baf8.PNG",
+    "static/media/언니.2ca5d43b.PNG": "/seulkaoTalk/static/media/언니.2ca5d43b.PNG",
+    "static/media/엄마.333cb857.PNG": "/seulkaoTalk/static/media/엄마.333cb857.PNG",
+    "static/media/죠르디.24c38bb3.PNG": "/seulkaoTalk/static/media/죠르디.24c38bb3.PNG",
+    "static/media/채우당.844a99bd.PNG": "/seulkaoTalk/static/media/채우당.844a99bd.PNG",
+    "static/media/친구2.a76365a5.PNG": "/seulkaoTalk/static/media/친구2.a76365a5.PNG",
+    "static/media/카톡치즈.b5b2478d.PNG": "/seulkaoTalk/static/media/카톡치즈.b5b2478d.PNG",
+    "static/media/헤나.3eb301f3.PNG": "/seulkaoTalk/static/media/헤나.3eb301f3.PNG",
+    "static/media/혜성.bb679c05.PNG": "/seulkaoTalk/static/media/혜성.bb679c05.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6679458.js",
+    "static/js/2.1f26550c.chunk.js",
+    "static/css/main.48799588.chunk.css",
+    "static/js/main.bd38036b.chunk.js"
+  ]
+}
