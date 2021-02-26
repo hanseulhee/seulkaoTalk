@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap');
+.chatlist{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 7%;
+}
+
+.rowlist{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.listcontent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 90vw;
+    height: 10vh;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.listtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 5px;
+    height: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+
+
+.listtitle > h4{
+    all: unset;
+    color: #8c8c8c;
+    font-weight: lighter;
+    margin-right: 5%;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.count{
+    position: relative;
+    width: 24px;
+    height:21px;
+    border-radius: 75%;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 5%;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
