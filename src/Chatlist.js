@@ -11,6 +11,7 @@ import neck from "./애들.PNG";
 import bell from "./죠르디.PNG";
 import it from "./아이티.PNG";
 import Sidebar from "./components/Sidebar";
+import Footer from"./components/Footer";
 
 function Chatlist() {
   return (
@@ -148,6 +149,7 @@ function Chatlist() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

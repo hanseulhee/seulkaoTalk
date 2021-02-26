@@ -169,3 +169,33 @@
   font-family: "Noto Sans KR", sans-serif;
   margin-right: 12px;
 }
+
+@media screen and (max-width: 1000px) {
+    .about__walet {
+    
+        margin-left: 3%;
+        width: 87%;
+      
+      }
+      .walet {
+        margin-left: 3%;
+        width: 87%;
+        font-size: 12px;
+      }
+      
+    
+      
+      .about__icon {
+        margin-top: 45px;
+      }
+      
+   
+      .icon__tool >img{
+          width:35px;
+
+      }
+      
+
+
+      
+}

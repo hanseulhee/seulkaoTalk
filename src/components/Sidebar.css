@@ -1,5 +1,3 @@
-
-
 .sidebar__tool {
   position: absolute;
   background-color: rgb(236, 236, 236);
@@ -7,7 +5,7 @@
   flex-direction: column;
   height: 100vh;
   width: 5vw;
-  
+
   justify-content: space-between;
 }
 
@@ -15,45 +13,42 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.topicon > img{
+.topicon > img {
   width: 41px;
   padding-top: 20px;
 }
 
-.bottomicon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bottomicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.bottomicon >img{
+.bottomicon > img {
   width: 32px;
   padding-top: 20px;
 }
 
-.circle{
+.circle {
   position: relative;
   width: 32px;
-  height:20px;
+  height: 20px;
   border-radius: 41%;
   background-color: red;
   color: white;
   font-size: 13px;
   text-align: center;
   font-weight: bolder;
-  top:35px;
+  top: 35px;
   left: 18px;
 }
 
-
-.circle2{
+.circle2 {
   position: relative;
   width: 18px;
-  height:18px;
+  height: 18px;
   border-radius: 100%;
   background-color: red;
   color: white;
@@ -65,11 +60,17 @@
 }
 
 .speech,
-.profile{
+.profile {
   width: 41px;
   margin-top: 16px;
 }
 
-.profile{
+.profile {
   z-index: 33;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar__tool {
+    display: none;
+  }
 }
