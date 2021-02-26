@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/seulkaoTalk/static/css/main.48799588.chunk.css",
-    "main.js": "/seulkaoTalk/static/js/main.bd38036b.chunk.js",
-    "main.js.map": "/seulkaoTalk/static/js/main.bd38036b.chunk.js.map",
+    "main.css": "/seulkaoTalk/static/css/main.892fed07.chunk.css",
+    "main.js": "/seulkaoTalk/static/js/main.a420bf62.chunk.js",
+    "main.js.map": "/seulkaoTalk/static/js/main.a420bf62.chunk.js.map",
     "runtime-main.js": "/seulkaoTalk/static/js/runtime-main.c6679458.js",
     "runtime-main.js.map": "/seulkaoTalk/static/js/runtime-main.c6679458.js.map",
-    "static/js/2.1f26550c.chunk.js": "/seulkaoTalk/static/js/2.1f26550c.chunk.js",
-    "static/js/2.1f26550c.chunk.js.map": "/seulkaoTalk/static/js/2.1f26550c.chunk.js.map",
+    "static/js/2.f224b4de.chunk.js": "/seulkaoTalk/static/js/2.f224b4de.chunk.js",
+    "static/js/2.f224b4de.chunk.js.map": "/seulkaoTalk/static/js/2.f224b4de.chunk.js.map",
     "index.html": "/seulkaoTalk/index.html",
-    "static/css/main.48799588.chunk.css.map": "/seulkaoTalk/static/css/main.48799588.chunk.css.map",
-    "static/js/2.1f26550c.chunk.js.LICENSE.txt": "/seulkaoTalk/static/js/2.1f26550c.chunk.js.LICENSE.txt",
+    "static/css/main.892fed07.chunk.css.map": "/seulkaoTalk/static/css/main.892fed07.chunk.css.map",
+    "static/js/2.f224b4de.chunk.js.LICENSE.txt": "/seulkaoTalk/static/js/2.f224b4de.chunk.js.LICENSE.txt",
     "static/media/logo.35ceafef.png": "/seulkaoTalk/static/media/logo.35ceafef.png",
     "static/media/가족.9dd823db.PNG": "/seulkaoTalk/static/media/가족.9dd823db.PNG",
     "static/media/나.9ae281a0.PNG": "/seulkaoTalk/static/media/나.9ae281a0.PNG",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c6679458.js",
-    "static/js/2.1f26550c.chunk.js",
-    "static/css/main.48799588.chunk.css",
-    "static/js/main.bd38036b.chunk.js"
+    "static/js/2.f224b4de.chunk.js",
+    "static/css/main.892fed07.chunk.css",
+    "static/js/main.a420bf62.chunk.js"
   ]
 }
