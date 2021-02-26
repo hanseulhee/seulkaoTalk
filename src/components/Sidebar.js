@@ -23,10 +23,12 @@ function Sidebar() {
           />
         </Link>
         <div className="circle2">N</div>
+        <Link to="/about">
         <img
           src="https://img.icons8.com/fluent-systems-filled/50/000000/ellipsis.png"
           alt="etc"
         />
+          </Link>
       </div>
 
       <div className="bottomicon">

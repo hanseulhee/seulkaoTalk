@@ -9,6 +9,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 15px;
+  
+  cursor: pointer;
 }
 
 .main__content {
@@ -33,6 +35,7 @@
   text-align: center;
   font-weight: 100;
   margin-left: 80%;
+  cursor: pointer;
 }
 
 .birth {
@@ -53,4 +56,5 @@
   text-align: center;
   font-weight: 100;
   margin-left: 70%;
+  cursor: pointer;
 }
